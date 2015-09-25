@@ -1,33 +1,46 @@
 body{
-	background-color: gray; 
+	background-color: #FFFAF0; 
 	border-top: solid 3px black;
 	border-bottom: solid 3px black;
 	padding: 10px;
-	margin: 80px;
-}
-nav{
-	text-align: center;
+	margin: 60px;
+	font-family: helvetica;
 }
 h1{
 	text-align: center;
+}
+nav{
+	font-weight: bold;
+	text-align: center;	
 }
 hr{
 	color:black;
 }
 h2{
 	text-align:left;
+	font-size: 24px;
+}
+h3{
+	text-align:left;
+	font-size: 18px;
 }
 p{
 	text-align: left;
+	font-family: times;
 }
 img{
-	float: right;
+	border: solid 1px black;
+	padding: 4px;
+	margin: 10px;
 }
 article{
 	float: left;
-	width: 80%;
+	width: 75%;
 
 }
 div{
 	overflow: hidden;
+}
+a{
+	font-weight: bolder;
 }
