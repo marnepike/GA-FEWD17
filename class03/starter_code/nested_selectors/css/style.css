@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	font-family: helvetica, Arial;
+	font-size: 20px;
+	color: navy;
+}
+em{
+	font-style: italic;
+	color: gray;
+}
+blockquote{
+	font-style: italic;
+	border-left: solid 5px black;
+	padding-left: 15px;
+	font-size: 24px;
+}
+blockquote em{
+	font-style: normal;
+}
