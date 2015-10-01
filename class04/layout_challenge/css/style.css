@@ -1,0 +1,62 @@
+/*****************
+	utility class
+****************/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clear {
+  overflow: auto;
+}
+
+/***************
+	layout stuffs
+*******************/
+
+body{
+
+}
+
+header{
+	background: red;
+
+}
+
+article{
+	background: yellow;
+	float: left;
+	width: 70%;
+	padding: 30px;
+}
+
+aside{
+	background: green;
+	float: right;
+	width: 30%;
+	padding: 30px;
+}
+
+footer{
+	background: blue;
+	clear:both;
+}
+
+div{
+	border:solid 3px black;
+	padding:25px;
+	height: 150px;
+	margin: 10px
+}
+
+
+
+

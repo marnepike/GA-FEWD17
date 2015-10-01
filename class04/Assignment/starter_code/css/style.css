@@ -7,14 +7,15 @@ Developer @GA in NYC
 
 
 /******************************************
-/* SETUP
-/*******************************************/
+Utilities
+*******************************************/
 
 /* Box Model Hack */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /* Clear fix hack */
@@ -49,7 +50,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }

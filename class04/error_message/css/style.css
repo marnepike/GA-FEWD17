@@ -1,0 +1,48 @@
+/*****************
+	utility class
+****************/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clear {
+  overflow: auto;
+}
+
+/******************
+	base styles
+******************/
+
+body{
+	margin: 20px;
+	font-family: helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+#notification{
+	background: yellow;
+	border: dashed 2px navy;
+	padding: 5px 10px 5px 10px;
+}
+.message{
+	background: #CCC;
+	border: solid 2px gray;
+	padding: 5px 10px;
+}
+.error{
+	background: red;
+	border: solid 2px orange;
+}
+.success{
+	background: green;
+	padding: 5px;
+	border: solid 2px gray;
+}
