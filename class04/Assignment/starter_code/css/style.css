@@ -52,7 +52,7 @@ body {
      line-height: 1.4;
      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    background-size: cover;
 }
 
 
@@ -69,10 +69,99 @@ body {
 }
 
 header {
+  text-align: center;
+  padding-bottom:200px;
+}
+h1{
+  color: white;
+  font: Extrabold;
+  font-size: 24px;
+  margin:20px;
+  text-align: left;
+}
+header p{
+  color:white;
+  font: Semibold;
+  font-size: 24px;
+}
+header a{
+  background:#f9e42e;
+  font-size: 14px;
+  border-radius: 5px;
+  padding:3px 20px;
+ /***need to figure out how to center button**/
 
+}
+article{
+  background:#f0efef;
+  color: #033048;
+  padding: 20px 30px;
+}
+h2{
+  font: Semibold;
+  font-size: 20px;
+}
+article p{
+  font:light;
+  font-size: 18px;
+}
+li{
+  font:Light;
+  font-size: 13px;
+}
+blockquote{
+  font-weight:light;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  /***how to fix background image****/
+  background: url(../images/testimonial_bg.jpg) no-repeat;
+  background-size: cover;
+  font-style: italic;
+}
+blockquote div{
+  font-weight: semibold;
+  font-style: normal;
+  font-size: 18px;
+}
+article.signup-bar{
+  background: #f9e42e;
+  padding: 25px;
+  text-align: center;
+  
+}
+article a{
+  background: #033048;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: Extrabold;
+  font-size:12px;
+  color: white;
+  margin: auto;
 }
 
 footer {
+  text-align: center;
+  line-height: 2;
+  background: black;
+  color: white;
+  padding-bottom:30px;
+}
+footer p{
+  font-weight:extrabold;
+  font-size: 24px;
+  color: #f9e42e;
+  padding-top: 20px;
+}
+footer div{
+  font-weight: semibold;
+  font-size: 9px;
+}
+footer img{
+  margin: 15px 10px;
+  max-width: 25px;
+  max-height: 20px;
 
 }
 
