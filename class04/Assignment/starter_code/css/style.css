@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Single Column
+Client: Relaxr
+Author: Marne!
+Developer @GA in DC
 */
 
 
@@ -43,7 +43,7 @@ html {
 }
 
 /******************************************
-/* BASE STYLES
+/* BASE STYLE
 /*******************************************/
 
 body {
@@ -64,81 +64,104 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
-
 }
 
 header {
   text-align: center;
   padding-bottom:200px;
 }
+
 h1{
   color: white;
-  font: Extrabold;
+  font-weight: 800;
   font-size: 24px;
-  margin:20px;
+  margin-left: 7%;
   text-align: left;
 }
+
 header p{
   color:white;
-  font: Semibold;
+  font-weight: 600;
   font-size: 24px;
+  margin-top: 50px;
+  padding: 40px
 }
+
 header a{
   background:#f9e42e;
   font-size: 14px;
   border-radius: 5px;
-  padding:3px 20px;
- /***need to figure out how to center button**/
+  padding:5px 25px;
+  font-weight: 800;
 
 }
 article{
   background:#f0efef;
   color: #033048;
-  padding: 20px 30px;
+  padding: 40px 50px;
 }
-h2{
-  font: Semibold;
+article h2{
+  font-weight: 600;
   font-size: 20px;
+  margin-left: 7%
 }
+
 article p{
-  font:light;
+  margin-right: 30%;
+  margin-left:7%; 
+  font-weight: 300;
+}
+
+article p{
+  font-weight: 300;
   font-size: 18px;
 }
+
 li{
-  font:Light;
+  font-weight: 300;
   font-size: 13px;
+  margin-left: 7%
 }
+
 blockquote{
-  font-weight:light;
+  font-weight:300;
+  font-style:italic;
   font-size: 18px;
   text-align: center;
   color: white;
-  padding: 20px;
-  /***how to fix background image****/
+  padding: 50px;
   background: url(../images/testimonial_bg.jpg) no-repeat;
   background-size: cover;
-  font-style: italic;
+  margin: auto;
 }
+
+blockquote div.narrow-box{
+  margin: 0 125px;
+  font-weight: 300;
+  font-style:italic;
+}
+
 blockquote div{
-  font-weight: semibold;
+  font-weight: 600;
   font-style: normal;
   font-size: 18px;
 }
+/**cant figure out how to get the yellow to fill entire blox**/
 article.signup-bar{
   background: #f9e42e;
-  padding: 25px;
-  text-align: center;
-  
+  background
+  padding: 40px;
+  text-align: center; 
+  font-weight: 600;
 }
+
 article a{
   background: #033048;
-  padding: 5px 20px;
+  padding: 10px 25px;
   border-radius: 5px;
-  font-weight: Extrabold;
+  font-weight: 800;
   font-size:12px;
   color: white;
-  margin: auto;
 }
 
 footer {
@@ -149,13 +172,13 @@ footer {
   padding-bottom:30px;
 }
 footer p{
-  font-weight:extrabold;
+  font-weight:800;
   font-size: 24px;
   color: #f9e42e;
   padding-top: 20px;
 }
 footer div{
-  font-weight: semibold;
+  font-weight: 600;
   font-size: 9px;
 }
 footer img{
@@ -164,11 +187,6 @@ footer img{
   max-height: 20px;
 
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
 
 
 
