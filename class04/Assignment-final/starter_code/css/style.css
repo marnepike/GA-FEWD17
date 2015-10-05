@@ -160,14 +160,14 @@ footer {
   background: black;
   color: white;
   padding-bottom:30px;
-  display:flex;
-  flex-direction:Column;
+ 
 
 }
 footer p{
   font-weight:800;
   font-size: 24px;
   color: #f9e42e;
+  margin-top: 0;
 
 }
 footer div{
