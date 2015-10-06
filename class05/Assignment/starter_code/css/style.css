@@ -1,0 +1,153 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+
+}
+
+nav{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+p:first-letter{
+  /*make it larger font*/
+}
+
+/* to make a link change when hovered*/
+a:hover{
+  background: orange;
+}
+
+li{
+  list-style: none;
+  padding: 5px 10px;
+  font-weight: 600px;
+  font-size: 24px;
+  /*float???*/
+}
+
+/**make the bar at the bottom of each post a border*/
+
+/* this is pasted from earlier assignment sheet*/
+h1{
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  margin-left: 7%;
+  text-align: left;
+}
+
+article.signup-bar{
+  background: #f9e42e;
+  padding: 40px;
+  text-align: center; 
+  font-weight: 600;
+}
+
+article a{
+  background: #033048;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size:12px;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  line-height: 2;
+  background: black;
+  color: white;
+  padding-bottom:30px;
+ 
+
+}
+footer p{
+  font-weight:800;
+  font-size: 24px;
+  color: #f9e42e;
+  margin-top: 0;
+
+}
+footer div{
+  font-weight: 600;
+  font-size: 9px;
+}
+
+footer img{
+  margin: 15px 10px;
+  max-width: 25px;
+  max-height: 20px;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
