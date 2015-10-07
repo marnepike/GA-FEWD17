@@ -46,10 +46,12 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     color: #121212;
+     font-size: 24px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-weight: 300;
+     font-family: 'Open Sans', sans-serif;
+     background-color: #606161;
 }
 
 
@@ -58,40 +60,82 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 960px;
+.blog-feed {
+  width: 700px;
   margin: auto;
+  float: left;
 }
 
 header {
-
+  background: #033048;
+  padding:20px;
+  margin: auto;
 }
 
-nav{
+.top{
   font-size: 24px;
   font-weight: 600;
 }
 
-p:first-letter{
-  /*make it larger font*/
+ul{
+  text-align: right;
 }
 
-/* to make a link change when hovered*/
-a:hover{
-  background: orange;
-}
-
-li{
+nav.top li{
   list-style: none;
-  padding: 5px 10px;
-  font-weight: 600px;
+  display: inline;
+  font-weight: 600;
   font-size: 24px;
-  /*float???*/
+  padding: 5px 10px 5px 5px;
+  color: #f9e42e;
+  
 }
 
-/**make the bar at the bottom of each post a border*/
+/****************
+SIDEBAR
+**************/
+
+aside{
+  width: 240px;
+  float: right;
+  margin: 20px 60px 20px 20px;
+}
+
+aside div{
+  margin-bottom: 30px;
+}
+
+h3{
+  font-size: 32px;
+  font-weight: 800;
+}
+
+aside ul{
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+}
+
+aside p{
+  font-size: 22px;
+  font-weight:300;
+}
+
+aside a{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.ad-unit{
+  background-color: white;
+  padding: 5px 7px 300px 5px;
+}
 
 /* this is pasted from earlier assignment sheet*/
+/*********
+NORMAL CONTENT AREA
+*************/
+
 h1{
   color: white;
   font-weight: 800;
@@ -100,14 +144,40 @@ h1{
   text-align: left;
 }
 
-article.signup-bar{
+section.blog-post{
+  border-bottom: solid black 1px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+section.blog-post p:first-letter{
+  font-size: 60px;
+}
+
+section img{
+  padding: 20px 5px;
+}
+
+.read-more{
+  font-size: 24px;
+  font-weight: 600;
+  float: right;
+  padding-bottom: 20px;
+}
+
+.signup-bar{
   background: #f9e42e;
   padding: 40px;
   text-align: center; 
   font-weight: 600;
 }
 
-article a{
+.signup-bar a{
   background: #033048;
   padding: 10px 25px;
   border-radius: 5px;
@@ -141,8 +211,8 @@ footer img{
   margin: 15px 10px;
   max-width: 25px;
   max-height: 20px;
-
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
