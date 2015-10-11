@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Blog
+Client: Relaxr
+Author: Marne Pike
+Developer @GA in DC
 */
 
 
@@ -119,6 +119,7 @@ aside ul{
 aside p{
   font-size: 22px;
   font-weight:300;
+  margin-bottom: 0;
 }
 
 aside a{
@@ -131,7 +132,6 @@ aside a{
   padding: 5px 7px 300px 5px;
 }
 
-/* this is pasted from earlier assignment sheet*/
 /*********
 NORMAL CONTENT AREA
 *************/
@@ -157,10 +157,6 @@ h2{
 
 section.blog-post p:first-letter{
   font-size: 60px;
-}
-
-section img{
-  padding: 20px 5px;
 }
 
 .read-more{
@@ -213,11 +209,14 @@ footer img{
   max-height: 20px;
 }
 
+/*****
+special!
+******/
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
+a:hover{
+  color:blue;
+  background-color: yellow;
+}
 
 
 
