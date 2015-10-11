@@ -75,6 +75,8 @@ header {
 .top{
   font-size: 24px;
   font-weight: 600;
+  display: inline-block;
+  margin-left: 40%;
 }
 
 ul{
@@ -88,7 +90,6 @@ nav.top li{
   font-size: 24px;
   padding: 5px 10px 5px 5px;
   color: #f9e42e;
-  
 }
 
 /****************
@@ -142,6 +143,7 @@ h1{
   font-size: 24px;
   margin-left: 7%;
   text-align: left;
+  display: inline;
 }
 
 section.blog-post{
