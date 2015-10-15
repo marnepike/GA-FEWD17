@@ -92,6 +92,11 @@ nav.top li{
   color: #f9e42e;
 }
 
+nav.top a{
+  text-decoration: none;
+  color: #f9e42e;
+}
+
 /****************
 SIDEBAR
 **************/
@@ -159,6 +164,7 @@ h2{
 
 section.blog-post p:first-letter{
   font-size: 60px;
+  padding: 5px;
 }
 
 .read-more{

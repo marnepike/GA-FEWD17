@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Responsive Relaxr
+Client: Relaxr
+Author: Marne
+Developer @GA in DC
 */
 
 
@@ -40,6 +40,10 @@ Developer @GA in NYC
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
+
+.mobile-only{
+    display: none;
+  }
 
 /******************************************
 /* BASE STYLES
@@ -270,5 +274,45 @@ footer p {
   font-weight: 600;
 }
 
+/*********
+mobile
+***********/
+
+@media screen and (max-width: 768px) {
+  
+  .logo{
+    padding: 0 0 0 20px;
+  }
+
+  /**?!?!?!?**/header{
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .desktop-only{
+    display: none;
+  }
+
+  .mobile-only{
+    display: block;
+  }
+
+  .hamburger-icon:before { 
+    content:'\2630'; 
+    color: #f9e42e;
+    font-size: 2em;
+    float: right;
+    cursor: pointer;
+    z-
+  }
+
+  .hero {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+
+  
 
 
