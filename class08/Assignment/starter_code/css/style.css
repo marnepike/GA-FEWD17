@@ -279,18 +279,19 @@ mobile
 ***********/
 
 @media screen and (max-width: 768px) {
-  
+
   .logo{
     padding: 0 0 0 20px;
+    font-size: 30px;
+  }
+
+  h1{
+    font-size: .5rem;
   }
 
   /**?!?!?!?**/header{
     overflow: hidden;
     width: 100%;
-  }
-
-  .desktop-only{
-    display: none;
   }
 
   .mobile-only{
@@ -303,13 +304,34 @@ mobile
     font-size: 2em;
     float: right;
     cursor: pointer;
-    z-
+  }
+
+  .benefits h3{
+    font-size: 30px;
+    padding: auto 20px;
+  }
+
+  blockquote{
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    /***NEED TO CENTER THIS TEXT!!!****/
+
+  }
+
+  a.button{
+    font-size: 20px;
+    padding: 10px;
+
   }
 
   .hero {
-    font-size: 20px;
+    font-size: .5rem;
     text-align: center;
   }
+
+
 }
 
 
