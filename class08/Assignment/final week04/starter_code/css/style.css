@@ -280,18 +280,60 @@ mobile
 
 @media screen and (max-width: 768px) {
 
+  .desktop-only{
+    display: none;
+  }
+
   .logo{
     padding: 0 0 0 20px;
     font-size: 30px;
+  }
+
+  .hero{
+    height: 350px
+  }
+
+  .hero h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
   }
 
   h1{
     font-size: .5rem;
   }
 
-  /**?!?!?!?**/header{
-    overflow: hidden;
-    width: 100%;
+  .main{
+    margin: 40px auto;
+  }
+
+  .post h2{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .post img{
+    width: 75%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-bottom:10px;
+  }
+
+  .post p{
+    font-size: 16px;
+    text-align: center;
+    padding: 30px;
+    margin: auto 30px;
+  }
+
+  .readmore{
+    padding: none;
+  }
+
+  .sidebar{
+    width: auto;
   }
 
   .mobile-only{
@@ -306,14 +348,27 @@ mobile
     cursor: pointer;
   }
 
+  .benefits {
+    padding: 20px 0 40px 0;
+  }
+
   .benefits h3{
     font-size: 30px;
-    padding: auto 20px;
+    padding: auto 30px;
+  }
+
+  .benefits p, ul{
+    font-size: 16px;
+    padding: auto 30px;
+  }
+
+  .container{
+    width: auto;
+    padding: 20px;
   }
 
   blockquote{
     font-size: 20px;
-    width: 300px;
     text-align: center;
     display: block;
     /***NEED TO CENTER THIS TEXT!!!****/
@@ -326,10 +381,7 @@ mobile
 
   }
 
-  .hero {
-    font-size: .5rem;
-    text-align: center;
-  }
+
 
 
 }

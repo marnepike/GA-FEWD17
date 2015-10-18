@@ -18,7 +18,7 @@
 				<h1 class="logo">Relaxr</h1>
 				<p class="hamburger-icon"></p>
 				<!--make this desktop-only, and css display:none;-->
-				<nav>
+				<nav class="desktop-only">
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="#">About</a></li>
@@ -47,18 +47,22 @@
 					</article>
 				</section><!--
 			--><aside class="sidebar">
-					<h3>Categories</h3>
-					<ul>
-						<li><a href="#">Success stories</a></li>
-						<li><a href="#">Stats</a></li>
-						<li><a href="#">How tos</a></li>
-						<li><a href="#">Best of</a></li>
-						<li><a href="#">Business tips</a></li>
-					</ul>
-					<h3>About Relaxr</h3>
-					<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br>
-					<a href="">Learn More</a></p>
-					<img src="images/ad-unit.png" alt="Ad Unit">
+					<div class="mobile-side1">
+						<h3>Categories</h3>
+						<ul>
+							<li><a href="#">Success stories</a></li>
+							<li><a href="#">Stats</a></li>
+							<li><a href="#">How tos</a></li>
+							<li><a href="#">Best of</a></li>
+							<li><a href="#">Business tips</a></li>
+						</ul>
+					</div>
+					<div class="mobile-side2">
+						<h3>About Relaxr</h3>
+						<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br>
+						<a href="">Learn More</a></p>
+						<img src="images/ad-unit.png" alt="Ad Unit" class="desktop-only">
+					</div>
 				</aside>
 			</div>
 		</section>
