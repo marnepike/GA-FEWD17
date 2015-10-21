@@ -1,0 +1,39 @@
+$red: darkred;
+
+body{
+	background: $red;
+}
+
+.black-background {
+	background: black;
+}
+.clear {
+	clear: both;
+}
+
+@mixin box( $transforms, $size, $color ) {
+       -moz-transform: $transforms;
+         -o-transform: $transforms;
+        -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+            transform: $transforms;
+            font-size: $size;
+            color: $color;
+            width: 200px;
+            height: 400px;
+            font-family: serif;
+            background: #444;
+
+}
+
+body {
+	@extend .black-background;
+	h1 {
+		@extend .clear;
+		//@include transform( rotate(20deg), 24px, blue );
+		margin-top: 50%;
+	}
+	div {
+		@include box(rotate(180deg), 60px, lightblue);
+	}
+}
