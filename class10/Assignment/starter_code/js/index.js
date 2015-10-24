@@ -10,3 +10,49 @@
 
 // Using the same functions as above, if a user clicks the "Learn More" link in the sidebar, have the ```<span>``` inside that ```<p>``` slide down and hide the "Learn More" link using ```$.slideDown()``` and ```$.hide()```
 
+$(document).ready(function() {
+
+	
+
+//1st attempt
+
+/*function ShowParagraph() {
+		$('.hide').slideDown();
+		$('.readmore').hide();
+		$('.readless hide').show();
+	}
+
+	$('.readmore').click(ShowParagraph);
+
+*/
+
+//2nd attempt
+/*
+$('.readmore').click(function(){ 
+    $('#ShowThisOnClick').slideDown();
+    $('p .readmore').show('hide');
+    $('readless').show();
+
+  });
+*/
+
+
+//3rd attempt
+$('.readmore').click(function(){ 
+    $('#ShowThisOnClick').slideDown();
+    $('p .readmore').hide();
+    $('.readless').show();
+
+  });
+
+
+
+});
+
+
+
+
+
+
+
+
