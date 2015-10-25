@@ -143,11 +143,11 @@ h2 a {
   padding-left: 3px;
   font-weight: 600;
 }
-.readmore, .readless {
+.readmore, .readless, .readmore2, .readless2 {
   text-align: right;
   margin-top: 30px;
 }
-.readmore a, .readless a {
+.readmore a, .readless a, .readmore2 a, .readless2 a {
   color: #043049;
   font-weight: 600;
 }
