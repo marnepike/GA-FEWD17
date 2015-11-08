@@ -15,7 +15,7 @@ $(document).ready(function(){
     };
 
 //what the page is listening for
-    $('option').click(changeBackgroundPic);
+    $('select').change(changeBackgroundPic);
 
 //when user selects city, change the background image -- a function within this 1st changeBackgroundPic function
     function changeBackgroundPic(){
@@ -26,26 +26,17 @@ $(document).ready(function(){
         $('#city-type').change(cityChoice);
 
             function cityChoice (){
-                for (i=0; i<cityClass.lenth; i++){
 
-                     if (('option').val()===city[i]){
-                     $('body').attr('class', cityClass[i]);
-
-                    } else { 
-                     $('body').css('background', 'url(../images/citipix_skyline.jpg) no-repeat center center fixed');
-                     }
-
-                }
+                //$('option').val(cityclass[i]); 
+                //$('option').attr('class', cityClass[i]);
+                //$('option').addClass(cityClass[i]);
+                $('option').append('<option ' + 'class=' + cityClass + '>' + cityChoice + '</option>');
             }
-            
-    
 
+            //how do i add the class?
 
 
     }
-
-
-
 
 
 
@@ -54,7 +45,16 @@ $(document).ready(function(){
 
 
 
-
+/* 
+//Function To List out Cities in Second Select tags
+function city(arr){
+$("#city").empty();//To reset cities
+$("#city").append("<option>--Select--</option>");
+$(arr).each(function(i){//to list cities
+$("#city").append("<option value=""+arr[i].value+"">"+arr[i].display+"</option>")
+});
+}
+*/
 
 
 
