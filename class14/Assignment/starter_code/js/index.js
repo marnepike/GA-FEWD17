@@ -4,13 +4,13 @@ $(document).ready(function(){
     var city = ["NYC", "SF", "LA", "ATX", "SYD"];
 
     var i;
-
-    var cityClass;
+      //creating an array for the classes so we can add it to the html?
+    var cityClass = ['nyc', 'sf', 'la', 'austin', 'sydney'];
 
 //displaying array in dropdown using for loop
 
     for (i = 0; i<city.length; i++) {
-        $('#city-type').append('<option>'+city[i]+'</option>');
+        $('#city-type').append('<option value=' + cityClass[i] +'>'+city[i]+'</option>');
         
     };
 
@@ -18,23 +18,13 @@ $(document).ready(function(){
     $('select').change(changeBackgroundPic);
 
 //when user selects city, change the background image -- a function within this 1st changeBackgroundPic function
-    function changeBackgroundPic(){
-        //creating an array for the classes so we can add it to the html?
-        cityClass = ['nyc', 'sf', 'la', 'austin', 'sydney'];
-        
-        
-        $('#city-type').change(cityChoice);
-
-            function cityChoice (){
-
-                //$('option').val(cityclass[i]); 
-                //$('option').attr('class', cityClass[i]);
-                //$('option').addClass(cityClass[i]);
-                $('option').append('<option ' + 'class=' + cityClass + '>' + cityChoice + '</option>');
-            }
-
-            //how do i add the class?
-
+    function changeBackgroundPic(){  
+        //finding the selected values, and assigning it to a variable so i can use it for chaning
+        var selectedValue = $('select').val();
+        //get rid of any class assigned from the below
+        $('body').removeClass();
+        //use selectedValueto change body class
+        $('body').addClass(selectedValue);
 
     }
 
