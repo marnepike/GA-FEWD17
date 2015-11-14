@@ -64,5 +64,17 @@ h1{
 	padding: 30px;
 }
 
+.btn{
+  text-align: center;
+}
+
+.stayConnected img{
+  height: 50px;
+}
+
+.stayConnected>.btn{
+  display: inline-block;
+}
+
 
 
