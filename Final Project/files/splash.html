@@ -2,13 +2,13 @@
 <html>
 <head>
 	<title>North Country Co-Op</title>
-	<!--bootstrap?-->
+	<!--bootstrap-->
 	<meta charset="utf-8">
  	 <meta name="viewport" content="width=device-width, initial-scale=1">
  	 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  	<!--css?-->
+  	<!--css-->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,31 +17,37 @@
 
 		<section>
 			<div class="container-fluid">
+			<div class="row">
 			<div class="span3">
+			<div class="col-md-6">
 			    <h1>North Country Food Co-Op</h1>
+			</div>
+			<div class="col-md-6">
 			    <form class="form-top">
-			    <label>First Name</label>
-			    <input type="text" name="firstname" class="span3"> <br />
-			    <label>Last Name</label>
-			    <input type="text" name="lastname" class="span3"> <br />
-			    <label>Email Address</label> 
+				    <label>First Name</label>
+				    <input type="text" name="firstname" class="span3"> <br />
+				    <label>Last Name</label>
+				    <input type="text" name="lastname" class="span3"> <br />
+				    <label>Email Address</label> 
 
-			    <input type="email" name="email" class="span3"> <br />
-			    <p>Address</p>
-			    <label>Street Address</label>
-			    <input type="text" name="address" class="span3"> <br />
-			    <label>Address Line 2</label>
-			    <input type="text" name="address" class="span3"> <br />
-			    <label>City</label>
-			    <input type="text" name="city" class="span3"> <br />
-			    <label>State</label>
-			    <input type="text" name="state" class="span3"> <br />
-			    <label>Zip Code</label>
-			    <input type="number" name="zip" class="span3">
-			    <label><input type="checkbox" name="terms"> I agree with the <a href="#">Terms and Conditions</a>.</label> <br />
-			    <input type="submit" value="Join" class="btn btn-primary">
-			    <div class="clearfix"></div>
+				    <input type="email" name="email" class="span3"> <br />
+				    <p>Address</p>
+				    <label>Street Address</label>
+				    <input type="text" name="address" class="span3"> <br />
+				    <label>Address Line 2</label>
+				    <input type="text" name="address" class="span3"> <br />
+				    <label>City</label>
+				    <input type="text" name="city" class="span3"> <br />
+				    <label>State</label>
+				    <input type="text" name="state" class="span3"> <br />
+				    <label>Zip Code</label>
+				    <input type="number" name="zip" class="span3">
+				    <label><input type="checkbox" name="terms"> I agree with the <a href="#">Terms and Conditions</a>.</label> <br />
+				    <input type="submit" value="Join" class="btn btn-primary joinButton">
+				    <div class="clearfix"></div>
 			    </form>
+			    </div>
+			    </div>
 			</div>
 				
 			
@@ -51,6 +57,7 @@
 		
 		<section class="membership">
 			<button class="btn readMoreButton">How to Become a Member</button>
+			<div class="membershipDetails">
 			<h2>Become a Member Owner</h2>
 			<p>Our member owners are the heart of our cooperative! There are a variety of membership options. All membership options entitle customers to store discounts and to run for board membership. As of February 1st, 2015, our annual membership fee is $10.00. Choose the membership option best suited to your lifestyle!</p>
 			<h3>How to Become a Member</h3>
@@ -74,45 +81,53 @@
 					<li>All people age 62 and over are eligible</li>
 					<li>No volunteer work hours required</li>
 				</ul>
-			<button class="btn showLessButton">Show Less</button>
+				<button class="btn showLessButton">Show Less</button>
+			</div>
+			
 
 		</section>
 
 		<footer>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 footerSection contactInfo">
 					<h2>Contact Info & Hours</h2>
+					<Phone>(518) 561-5904</phone> <br />
+					<email>northcountryfoodcoop@gmail.com</email>
 					<p>Monday - Friday: 9am - 7pm</p>
 					<p>Saturday: 9am - 5pm</p>
 					<p>Sunday: 12pm - 5pm</p>
-					<small>Closed on Easter, Thanksgiving, Christmas Day and New Year's Day. Open 9 am to 3 pm on Christmas Eve.</small> <br />
-					<Phone>(518) 561-5904</phone> <br />
-					<email>northcountryfoodcoop@gmail.com</email>
+					<small>Closed on Easter, Thanksgiving, Christmas Day and New Year's Day.</small> <br />
+					<small>Open 9 am to 3 pm on Christmas Eve.</small> <br />
+					
 				</div>
-				<div class="col-md-4 stayConnected">
+				<div class="col-md-4 footerSection stayConnected">
 					<h2>Stay Connected</h2>
 					<a href="www.facebook.com>"><img src="images/facebook.png"></a>
 					<a href="www.twitter.com>"><img src="images/twitter.png"></a>
 					<a href="mailto:northcountryfoodcoop@gmail.com"><img src="images/message.png"></a><br />
 					<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=EJXCOXOq484_vpD1DEtUKE7gakMqR9SGnQoVVvHwJ8gCpAuYUknyNaHcDHS&dispatch=5885d80a13c0db1f8e263663d3faee8d64ad11bbf4d2a5a1a0d303a50933f9b2" class="btn btn-primary">Donate</a>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 footerSection stayUpdated">
 					<h2>Stay Updated</h2>
 					<div class="input-append">
 		  				<input class="span4" id="appendedInputButton" type="email" value="your email">
-		  				<button class="btn-primary" type="button">Subscribe!</button>
+		  				<button class="btn-primary emailSubscribe" type="button">Subscribe!</button>
 					</div>
 				</div>
 			<div class="row">
 				<div class="col-md-12">
-				<small>Copyright &copy; 2015 | All Rights Reserved | North Country Food Co-op</small>
+				<small class="obligatoryFooterLanguage">Copyright &copy; 2015 | All Rights Reserved | North Country Food Co-op</small>
 				</div>
 			</div>
 			</div>
 		</div
 		</footer>
 	</div>
+
+	<!--JS-->
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+  	<script src="js/splash.js"></script>
 
 </body>
 </html>

@@ -50,9 +50,9 @@ h1{
 
 .form-top{
 	background: rgba(225, 225, 225, 0.5);
-	height: 300px;
-	width: 33%;
-	margin: 30px 0 50px 0;
+	width: 90%;
+	margin: 50px auto;
+  padding: 7%;
 }
 
 .small{
@@ -60,12 +60,19 @@ h1{
 }
 
 .membership{
-	background: rgba(225, 225, 225, 0.90);
+	background: rgba(225, 225, 225, 0.60);
 	padding: 30px;
 }
 
+.membershipDetails{
+  display: none;
+}
+
+
+
 .btn{
   text-align: center;
+
 }
 
 .stayConnected img{
@@ -74,6 +81,16 @@ h1{
 
 .stayConnected>.btn{
   display: inline-block;
+}
+
+.footerSection{
+ 
+}
+
+
+.obligatoryFooterLanguage{
+  text-align: center;
+  display: block;
 }
 
 
