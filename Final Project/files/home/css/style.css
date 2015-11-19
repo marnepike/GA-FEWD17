@@ -1,0 +1,337 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/*STYLING*/
+.top{
+	height: 100%;
+	width: 100%;
+	margin: none;
+	background: url("https://static.pexels.com/photos/8483/food-eggs-box.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 60px;
+    margin: 35px;
+    padding: 25px;
+    
+    }
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 23px;
+    letter-spacing: -1px;
+    margin: 35px
+    }
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -1px;
+    margin: 35px
+    }
+
+p{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+    }
+
+street{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+}
+
+city{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+}
+
+state{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+
+}
+
+zip{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+
+}
+label{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 14px;
+    }
+ul{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+li{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+phone{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 14px;
+    }
+email{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 14px;
+    }
+small{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 12px;
+    }
+
+.btn{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    }
+ 
+
+nav{
+
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+nav ul{
+  padding: 10px;
+  margin: 10px;
+}
+
+nav ul li{
+  display: inline;
+
+}
+
+nav a{
+  color: white;
+}
+
+.extraMarginBottom input{
+  margin-bottom: 7px;
+}
+
+.extraMarginBottom label{
+  text-align: center;
+}
+
+.form-top{
+	background: rgba(225, 225, 225, 0.5);
+	width: 60%;
+	margin: 70px auto;
+  padding: 3%;
+}
+
+.small{
+	padding: 5px 20px;
+}
+
+.ctaSection{
+  text-align: center;
+}
+
+.ctaSection button{
+  margin-bottom: 20px;
+}
+
+.flyerBox{
+  background: gray;
+  padding: 5% 0;
+
+}
+
+.pitchInBox{
+  background: white;
+  padding: 5% 0;
+
+}
+
+.signUpBox{
+  background: url("http://static1.squarespace.com/static/542e8fdee4b0745e2ab844b6/t/55b794fde4b06f1beaf76a20/1438094642562/food-salad-healthy-vegetables.jpg?format=2500w") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+
+.darkOverlay{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.emailAskBox{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  height: 300px;
+  padding: 9%;
+  color: white;
+
+}
+
+.emailEntry input{
+  padding-left: 5%;
+ height: 80px;
+ background: rgba(0, 0, 0, 0.9);
+ color: white;
+ border: none;
+ font-family: 'Cantarell', sans-serif;
+  font-size: 28px;
+
+}
+
+.emailEntry button{
+ padding: 10px auto;
+ height: 80px;
+ opacity: 0.9;
+ font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+}
+
+.readMoreButton{
+  width: 100%;
+  height: 200px;
+  font-size: 32px;
+}
+
+.showLessButton{
+  margin-bottom: 30px;
+}
+
+
+
+.membership{
+	background-color: rgba(225, 225, 225, 0.6);
+  text-align: center;
+}
+
+.membershipDetails{
+  display: none;
+  text-align: left;
+  padding: 0 10%;
+
+}
+
+footer{
+  text-align: center;
+  background-color: rgba(225, 225, 225, 0.9);
+  
+}
+
+
+.contactInfo {
+  text-align: left;
+  padding-left: 5%;
+}
+
+.contactInfo h2{
+  text-align: center;
+}
+
+.stayConnected button{
+  border: none;
+  height: 40px;
+
+}
+
+.stayConnected input{
+  border: none;
+  height: 40px;
+}
+
+.stayConnected img{
+  height: 50px;
+  padding: 0 5px;
+  margin-top: 30px;
+}
+
+.emailEntryFooter{
+  border: none;
+ font-family: 'Cantarell', sans-serif;
+  font-size: 13px;
+}
+
+.stayConnected a{
+  margin-top: 30px;
+}
+
+.contactUs{
+  text-align: right;
+  padding-right: 5%;
+}
+
+
+.obligatoryFooterLanguage{
+  text-align: center;
+  display: block;
+  margin-top: 5%;
+}
+
+
+
