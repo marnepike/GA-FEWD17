@@ -57,16 +57,88 @@ html {
   	background-size: cover;
 }
 
-h1{
-	padding: 20px;
-	margin: auto;
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 60px;
+    margin: 35px;
+    padding: 25px;
+    
+    }
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 23px;
+    letter-spacing: -1px;
+    margin: 35px
+    }
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -1px;
+    margin: 35px
+    }
+
+p{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+    }
+label{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 14px;
+    }
+ul{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+li{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+phone{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 14px;
+    }
+email{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 14px;
+    }
+small{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 12px;
+    }
+
+.btn{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    }
+ 
+
+
+.extraMarginBottom input{
+  margin-bottom: 7px;
+}
+
+.extraMarginBottom label{
+  text-align: center;
 }
 
 .form-top{
 	background: rgba(225, 225, 225, 0.5);
-	width: 90%;
-	margin: 50px auto;
-  padding: 7%;
+	width: 60%;
+	margin: 70px auto;
+  padding: 3%;
 }
 
 .small{
@@ -74,37 +146,49 @@ h1{
 }
 
 .membership{
-	background: rgba(225, 225, 225, 0.60);
+	background-color: rgba(225, 225, 225, 0.6);
 	padding: 30px;
+  text-align: center;
 }
 
 .membershipDetails{
   display: none;
+  text-align: left;
+  padding: 0 10%;
+
+}
+
+footer{
+  text-align: center;
+  background-color: rgba(225, 225, 225, 0.9);
+  
 }
 
 
+.contactInfo {
+  text-align: left;
+  padding-left: 5%;
+}
 
-.btn{
+.contactInfo h2{
   text-align: center;
-
 }
 
 .stayConnected img{
   height: 50px;
+  padding: 0 5px;
+  margin-top: 30px;
 }
 
-.stayConnected>.btn{
-  display: inline-block;
-}
-
-.footerSection{
- 
+.stayConnected a{
+  margin-top: 30px;
 }
 
 
 .obligatoryFooterLanguage{
   text-align: center;
   display: block;
+  margin-top: 5%;
 }
 
 
