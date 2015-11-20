@@ -222,6 +222,7 @@ nav a{
 
 .darkOverlay{
   background: rgba(0, 0, 0, 0.5);
+  height: 100%;
 }
 
 
@@ -235,13 +236,14 @@ nav a{
 }
 
 .emailEntry input{
-  padding-left: 5%;
+padding-left: 5%;
  height: 80px;
  background: rgba(0, 0, 0, 0.9);
  color: white;
  border: none;
  font-family: 'Cantarell', sans-serif;
   font-size: 28px;
+margin-bottom: 5%;
 
 }
 
@@ -252,6 +254,11 @@ nav a{
  font-family: 'Fjalla One', sans-serif;
   font-weight: normal;
   font-size: 26px;
+}
+
+.googleMapEmbed{
+    margin: 5% auto;
+    display: inherit;
 }
 
 .readMoreButton{
