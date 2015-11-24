@@ -1,0 +1,77 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<form class="container">
+		<label class="boldText">Your Contact Info</label>
+			<fieldset>
+				<legend>Your Name</legend>
+	   				<input type="text" name="first_name" placeholder="First">
+	   				<input type="text" name="last_name" placeholder="Last">
+			</fieldset>
+
+			<fieldset>
+				<legend>Phone Number</legend>
+	   				<input type="text" name="area_code" maxlength="3">&mdash;
+	   				<input type="text" name="phone_one" maxlength="3">&mdash;
+	   				<input type="text" name="phone_two" maxlength="4">&mdash;
+			</fieldset>
+
+			<fieldset>
+				<legend>Address</legend>
+	   				<input type="text" name="street_address" placeholder="Street Address">
+	   				<input type="text" name="address2" placeholder="Address Line 2">
+	   				<input type="text" name="city" placeholder="City"> 
+	   				<input type="text" name="state" placeholder="State"> 
+	   				<input type="text" name="postal_code" placeholder="Postal Code"> 
+			</fieldset>
+		
+		
+			<fieldset>
+				<legend class="boldText">Skills & Interests</legend>
+				<select>
+					<option value="unselected">Select One</option>
+					<optgroup label="Web Development">
+						<option value="Front-End">Front-End</option>
+						<option value="Back-End">Back-End</option>
+					</optgroup>
+
+					<optgroup label="Design">
+						<option value="Visual Design">Visual Design</option>
+						<option value="User Experience">User Experience</option>
+					</optgroup>
+					
+				</select> 
+
+				<label class="textAreaLabel">Past Experience</label></fieldset>
+				<textarea name="past_experience" rows="10" cols="60"></textarea>
+			</fieldset>
+
+		
+			<fieldset>
+			<legend class="boldText">Anything Else?</legend>
+				<select>
+					<option value="None">None</option>
+					<option value="Friend">Friend</option>
+					<option value="Instructor">Instructor</option>
+					<option value="Online">Online</option>
+				</select> 
+
+				<label class="textAreaLabel">Comments</label>
+				<textarea name="comments" rows="10" cols="60"></textarea>
+			</fieldset>
+
+		<input type="button" value="Save Draft">
+		<input type="submit" value="Submit">
+
+
+	</form>
+
+</body>
+</html>
