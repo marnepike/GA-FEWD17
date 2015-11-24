@@ -21,6 +21,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="blog.html">Blog</a></li>
 						<li><a href="#">Contact</a></li>
+						<li><a href="register.html">Register</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -28,7 +29,52 @@
 		<section id="main">
 			<div class="container">
 				<section id="contact">
-					<input type="submit" value="Register Now!">
+					
+					<h2>Send us a message!</h2>
+					<p>We usually respond within 1 business day.</p>
+					
+					<form>
+						<h3>General Info</h3>
+						<label>Name*</label><input type="text" name="name" placeholder="John Smith"><hr>
+						<label>Email*</label><input type="text" name="email" placeholder="name@mydomain.com"><hr>
+						<label>Company</label><input type="text" name="company" placeholder="Acme Inc."><hr>
+						<label>How did you hear about us?</label><input type="text" name="referral" placeholder="Event"><hr>
+						<label>What would you like to discuss?</label>
+							<label class="radioButton"><input type="radio" name="discussion_topic" value="hiring_philosophic" checked>Hiring Philosophic</label>
+
+							<label class="radioButton"><input type="radio" name="discussion_topic" value="join_philosophic">Joining the Philsophic team</label>
+
+							<label class="radioButton"><input type="radio" name="discussion_topic" value="other_topic">Other</label>
+
+						<h3>Project Info</h3>
+							<label>Which of our offereings interest you?</label>
+							
+							<label class="radioButton"><input type="checkbox" name="offerings" value="lean_branding" checked>Lead Branding</label>
+							
+							<label class="radioButton"><input type="checkbox" name="offerings" value="mvp">4 Week MVP</label>
+							
+							<label class="radioButton"><input type="checkbox" name="offerings" value="prod_team">Product Team</label>
+
+							<label class="radioButton"><input type="checkbox" name="offerings" value="design">Design Spirit</label>
+
+							<label class="radioButton"><input type="checkbox" name="offerings" value="other_offering">Other</label>
+
+							<label>What is the problem you are trying to solve?</label>
+							<textarea rows="10" cols="100"></textarea>
+
+							<label>What do you hope our engagement will accomplish?</label>
+							<textarea rows="10" cols="100"></textarea>
+
+							<label>What is your budget range?</label>
+							<label class="radioButton"><input type="radio" name="budget" value="less40k" checked>Less than $40K</label>
+							<label class="radioButton"><input type="radio" name="budget" value="40k-100k">$40K - $100K</label>
+							<label class="radioButton"><input type="radio" name="budget" value="100k-250k">$100K - $250K</label>
+							<label class="radioButton"><input type="radio" name="budget" value="250k-500k">$250K - $500K</label>
+							<label class="radioButton"><input type="radio" name="budget" value="500k">$500K +</label>
+			
+
+						<input type="submit" value="Submit">
+					</form>
 				</section>
 			</div>
 		</section>
