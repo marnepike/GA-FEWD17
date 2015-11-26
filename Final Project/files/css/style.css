@@ -50,11 +50,12 @@ html {
 	height: 100%;
 	width: 100%;
 	margin: none;
-	background: url("https://static.pexels.com/photos/8483/food-eggs-box.jpg") no-repeat center center fixed; 
-  	-webkit-background-size: cover;
- 	 -moz-background-size: cover;
- 	 -o-background-size: cover;
-  	background-size: cover;
+  background: url("http://static1.squarespace.com/static/542e8fdee4b0745e2ab844b6/t/55b794fde4b06f1beaf76a20/1438094642562/food-salad-healthy-vegetables.jpg?format=2500w") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+
 }
 
 h1 {
@@ -64,7 +65,15 @@ h1 {
     line-height: 60px;
     font-size: 60px;
     margin: 2% 4%;
+
     }
+
+.memberOwner{
+  color: white;
+  padding: 3%;
+  margin: 0 auto;
+
+}
 
 h2 {
     font-family: 'Fjalla One', sans-serif;
@@ -72,8 +81,11 @@ h2 {
     font-size: 28px;
     line-height: 23px;
     letter-spacing: -1px;
-    margin: 35px
+     margin: 35px;
+     margin-top: 5%;
+
     }
+
 h3 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
@@ -86,8 +98,41 @@ h3 {
 p{
     font-family: 'Cantarell', sans-serif;
     font-size: 17px;
-    margin: 0 0 15px 0;
+    margin: 0 35px;
     }
+
+.footerSection p{
+   font-family: 'Cantarell', sans-serif;
+    font-size: 17px;  
+    margin: 0;
+}
+
+
+street{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+}
+
+city{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+}
+
+state{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+
+}
+
+zip{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+
+}
 label{
     font-family: 'Cantarell', sans-serif;
     font-size: 14px;
@@ -122,19 +167,22 @@ small{
     font-weight: normal;
     font-size: 16px;
     }
- 
- 
- nav{
 
-  background: rgba(0, 0, 0, 0.5);
+
+nav{
+
+  background-color: white;
   display: block;
   width: 100%;
   text-align: right;
+  padding-bottom: 2%;
+  padding-top: 1%
 }
 
 nav ul{
   padding: 10px;
-  margin: 10px;
+  margin-bottom: 0px;
+
 }
 
 nav ul li{
@@ -142,9 +190,42 @@ nav ul li{
 
 }
 
-nav a{
-  color: white;
+.logo{
+  display: inline;
+  float: left;
+  margin-bottom: 0px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+  font-size: 40px;
 }
+
+.darkOverlay{
+  background: rgba(0, 0, 0, 0.4);
+  padding-bottom: 2%
+}
+
+.introSection{
+  color: white;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.titleInfo{
+  padding-top: 4%;
+  text-align: center;
+}
+
+.titleInfo p{
+  margin: 2%;
+  padding: 2%;
+}
+
+.locationInfo{
+  padding: 4%;
+}
+
 
 
 
@@ -157,19 +238,90 @@ nav a{
 }
 
 .form-top{
-	background: rgba(225, 225, 225, 0.5);
+	background: rgba(225, 225, 225, 0.7);
 	width: 60%;
-	margin: 70px auto;
-  padding: 3%;
+	margin: 0 auto;
+  padding: 2%;
 }
 
 .small{
 	padding: 5px 20px;
 }
 
+.ctaSection{
+  text-align: center;
+}
+
+.ctaSection button{
+  margin-bottom: 20px;
+}
+
+.flyerBox{
+  background: gray;
+  padding: 5% 0;
+
+}
+
+.pitchInBox{
+  background: white;
+  padding: 5% 0;
+
+}
+
+
+
+.emailAskBox{
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  height: 300px;
+  padding: 9%;
+  color: white;
+
+}
+
+.emailEntry input{
+padding-left: 5%;
+ height: 80px;
+ background: rgba(0, 0, 0, 0.9);
+ color: white;
+ border: none;
+ font-family: 'Cantarell', sans-serif;
+  font-size: 28px;
+margin-bottom: 5%;
+
+}
+
+.emailEntry button{
+ padding: 10px auto;
+ height: 80px;
+ opacity: 0.9;
+ font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+}
+
+.googleMapEmbed{
+    margin: 5% auto;
+    display: inherit;
+
+}
+
+.readMoreButton{
+  width: 100%;
+  height: 200px;
+  font-size: 32px;
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.showLessButton{
+  margin-bottom: 30px;
+}
+
+
+
 .membership{
-	background-color: rgba(225, 225, 225, 0.6);
-	padding: 30px;
+	background-color: rgba(225, 225, 225, 0.8);
   text-align: center;
 }
 
@@ -196,14 +348,36 @@ footer{
   text-align: center;
 }
 
+.stayConnected button{
+  border: none;
+  height: 40px;
+
+}
+
+.stayConnected input{
+  border: none;
+  height: 40px;
+}
+
 .stayConnected img{
   height: 50px;
   padding: 0 5px;
   margin-top: 30px;
 }
 
+.emailEntryFooter{
+  border: none;
+ font-family: 'Cantarell', sans-serif;
+  font-size: 13px;
+}
+
 .stayConnected a{
   margin-top: 30px;
+}
+
+.contactUs{
+  text-align: right;
+  padding-right: 5%;
 }
 
 
