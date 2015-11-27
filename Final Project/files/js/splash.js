@@ -17,6 +17,4 @@ $(document).ready(function(){
 		alert('Thanks for becoming a member of the North Country Co-Op! See you soon!');
 	});
 
-		
-
 });

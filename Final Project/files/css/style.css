@@ -82,8 +82,6 @@ h2 {
     line-height: 23px;
     letter-spacing: -1px;
      margin: 35px;
-     margin-top: 5%;
-
     }
 
 h3 {
@@ -141,13 +139,16 @@ ul{
     font-family: 'Cantarell', sans-serif;
     font-size: 17px;
     line-height: 23px;
-    margin: 0 0 23px 0;
+    margin: 0;
+    padding: 10px;
     }
+
 li{
     font-family: 'Cantarell', sans-serif;
     font-size: 17px;
     line-height: 23px;
     margin: 0 0 23px 0;
+
     }
 phone{
     font-family: 'Cantarell', sans-serif;
@@ -166,6 +167,8 @@ small{
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
     font-size: 16px;
+    background-color: gray;
+    color: #841B2D;
     }
 
 /*nav bar*/
@@ -175,14 +178,7 @@ nav{
   display: block;
   width: 100%;
   text-align: right;
-  padding-bottom: 2%;
-  padding-top: 1%
-}
-
-nav ul{
-  padding: 10px;
-  margin-bottom: 0px;
-
+  padding: 1% 1% 2% 1%;
 }
 
 nav ul li{
@@ -190,13 +186,26 @@ nav ul li{
 
 }
 
+a{
+  color: maroon;
+}
+
 .logo{
-  display: inline;
+  display: inline-block;
   float: left;
   margin-bottom: 0px;
+  margin-left: 2%;
   font-family: 'Fjalla One', sans-serif;
   font-weight: normal;
   font-size: 40px;
+}
+
+nav .glyphicon{
+  font-size: 50px;
+  color: maroon;
+  float: left;
+  display: inline-block;
+  padding:0 0 0 2%;
 }
 
 
@@ -220,9 +229,17 @@ nav ul li{
 }
 
 .locationInfo{
-  padding: 3%;
+  padding: 2.5% 4%;
 }
 
+.introSection button{
+  margin-bottom: 4%;
+  padding: 2%;
+}
+
+.introSection h2{
+  margin: 0;
+}
 
 .ctaSection{
   text-align: center;
@@ -230,18 +247,35 @@ nav ul li{
 
 .ctaSection button{
   margin-bottom: 20px;
+  width: 40%;
+  height:10%;
 }
 
 .flyerBox{
   background: gray;
-  padding: 5% 0;
+  padding: 1% 0;
 
+}
+
+.flyerBox button{
+  background-color: white;
+}
+
+.flyerBox .glyphicon{
+  color: gray;
 }
 
 .pitchInBox{
   background: white;
-  padding: 5% 0;
+  padding: 1% 0;
 
+}
+
+.glyphicon{
+  font-size: 50px;
+  display: block;
+  padding: 2%;
+  color: white;
 }
 
 .emailAskBox{
@@ -254,15 +288,13 @@ nav ul li{
 }
 
 .emailEntry input{
-padding-left: 5%;
- height: 80px;
- background: rgba(0, 0, 0, 0.9);
- color: white;
- border: none;
- font-family: 'Cantarell', sans-serif;
+  padding-left: 5%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  border: none;
+  font-family: 'Cantarell', sans-serif;
   font-size: 28px;
-margin-bottom: 5%;
-
 }
 
 .emailEntry button{
@@ -272,6 +304,13 @@ margin-bottom: 5%;
  font-family: 'Fjalla One', sans-serif;
   font-weight: normal;
   font-size: 26px;
+  background-color: maroon;
+}
+
+.emailEntry .glyphicon{
+  font-size: 40px;
+  display: inline;
+  margin-bottom: 0;
 }
 
 .googleMapEmbed{
@@ -307,10 +346,18 @@ margin-bottom: 5%;
   text-align: center;
 }
 
+.membership .glyphicon {
+  display: inline-block;
+}
+
 .membershipDetails{
   display: none;
   text-align: left;
   padding: 0 10%;
+}
+
+.membershipDetails ul{
+  padding-left: 5%;
 }
 
 .readMoreButton{
@@ -322,7 +369,7 @@ margin-bottom: 5%;
 }
 
 .showLessButton{
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
 
