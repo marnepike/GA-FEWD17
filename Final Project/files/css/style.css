@@ -45,7 +45,7 @@ html {
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-/*STYLING*/
+/*STYLING both*/
 .top{
 	height: 100%;
 	width: 100%;
@@ -168,7 +168,7 @@ small{
     font-size: 16px;
     }
 
-
+/*nav bar*/
 nav{
 
   background-color: white;
@@ -199,22 +199,19 @@ nav ul li{
   font-size: 40px;
 }
 
-.darkOverlay{
-  background: rgba(0, 0, 0, 0.4);
-  padding-bottom: 2%
-}
 
+/*index*/
 .introSection{
   color: white;
-  width: 85%;
+  width: 95%;
   margin: 0 auto;
   text-align: center;
   padding-top: 5%;
 }
 
 .titleInfo{
-  padding-top: 4%;
-  text-align: center;
+  padding: 2%;
+
 }
 
 .titleInfo p{
@@ -223,30 +220,9 @@ nav ul li{
 }
 
 .locationInfo{
-  padding: 4%;
+  padding: 3%;
 }
 
-
-
-
-.extraMarginBottom input{
-  margin-bottom: 7px;
-}
-
-.extraMarginBottom label{
-  text-align: center;
-}
-
-.form-top{
-	background: rgba(225, 225, 225, 0.7);
-	width: 60%;
-	margin: 0 auto;
-  padding: 2%;
-}
-
-.small{
-	padding: 5px 20px;
-}
 
 .ctaSection{
   text-align: center;
@@ -267,8 +243,6 @@ nav ul li{
   padding: 5% 0;
 
 }
-
-
 
 .emailAskBox{
   background: rgba(0, 0, 0, 0.5);
@@ -306,6 +280,39 @@ margin-bottom: 5%;
 
 }
 
+/*membership*/
+.form-top{
+  background: rgba(225, 225, 225, 0.7);
+  width: 60%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.extraMarginBottom input{
+  margin-bottom: 7px;
+}
+
+.extraMarginBottom label{
+  text-align: center;
+}
+
+/*both*/
+.darkOverlay{
+  background: rgba(0, 0, 0, 0.6);
+  padding-bottom: 2%
+}
+
+.membership{
+  background-color: rgba(225, 225, 225, 0.8);
+  text-align: center;
+}
+
+.membershipDetails{
+  display: none;
+  text-align: left;
+  padding: 0 10%;
+}
+
 .readMoreButton{
   width: 100%;
   height: 200px;
@@ -319,25 +326,12 @@ margin-bottom: 5%;
 }
 
 
-
-.membership{
-	background-color: rgba(225, 225, 225, 0.8);
-  text-align: center;
-}
-
-.membershipDetails{
-  display: none;
-  text-align: left;
-  padding: 0 10%;
-
-}
-
+/*footer*/
 footer{
   text-align: center;
   background-color: rgba(225, 225, 225, 0.9);
   
 }
-
 
 .contactInfo {
   text-align: left;
@@ -365,14 +359,14 @@ footer{
   margin-top: 30px;
 }
 
+.stayConnected a{
+  margin-top: 30px;
+}
+
 .emailEntryFooter{
   border: none;
  font-family: 'Cantarell', sans-serif;
   font-size: 13px;
-}
-
-.stayConnected a{
-  margin-top: 30px;
 }
 
 .contactUs{
@@ -380,6 +374,9 @@ footer{
   padding-right: 5%;
 }
 
+.small{
+  padding: 5px 20px;
+}
 
 .obligatoryFooterLanguage{
   text-align: center;
