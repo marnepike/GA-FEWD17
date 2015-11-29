@@ -316,6 +316,38 @@ nav .glyphicon{
 .googleMapEmbed{
     margin: 5% auto;
     display: inherit;
+}
+
+/*@media screen and (max-width: 1020px){
+  .googleMapEmbed{
+    width: 850px;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .googleMapEmbed{
+    width: 600px;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 480px){
+  .googleMapEmbed{
+    width: 400px;
+    margin: 0 auto;
+  }
+
+}*/
+
+
+@media screen and (max-width: 350px){
+  .googleMapEmbed{
+    width: 300px;
+    margin: 0 auto;
+  }
 
 }
 
